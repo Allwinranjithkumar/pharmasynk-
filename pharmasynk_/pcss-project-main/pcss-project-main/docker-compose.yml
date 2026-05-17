@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  # PostgreSQL service removed; using local PostgreSQL instance.
+  # Add other services (e.g., backend, frontend) here as needed.
+
+volumes:
+  # No internal PostgreSQL volumes needed.
