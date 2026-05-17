@@ -1,6 +1,13 @@
 node_modules/ 
 .env 
 
-#data very large files
+# Large data files - do NOT commit to GitHub
 data/
 full_database.xml
+
+# DrugBank raw data files (too large for GitHub, licensed data)
+# Download from https://go.drugbank.com/releases/latest
+*.zip
+*.xml
+drugbank/
+drugbank_all_full_database.xml.zip
